@@ -8,8 +8,6 @@
 
 .left{      
     width: 40%;
-    margin-left: auto;
-    margin-right: 0px;
     margin-top: 69px;
     margin-bottom: 90px;
     display: flex;
@@ -19,11 +17,6 @@
 .title{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 54px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1;
-    letter-spacing: normal;
     text-align: center;
     color: #000000;
     margin-top: auto;
@@ -32,9 +25,6 @@
 .reference{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.33;
     letter-spacing: normal;
     text-align: center;
@@ -44,9 +34,6 @@
 .description{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.25;
     letter-spacing: normal;
     text-align: center;
@@ -82,7 +69,7 @@ button{
 img{
       max-width: 688px;
       width: 100%;
-      margin-left: 0%;
+      margin-left: 0px;
       margin-right: auto;
       margin-top: 42px;
       margin-bottom: 42px;
@@ -97,12 +84,10 @@ img{
     
     .left{
         width: auto;
-        margin-left: auto;
-        margin-right: auto;
     }
     
     .title{
-        margin-top: 0px;
+        margin-top: 0;
     }
 
     .description{
@@ -115,12 +100,12 @@ img{
 
     .image-container {
         width: auto;
-        margin-bottom: 0px;
-        padding-bottom: 0px;
+        margin-bottom: 0;
+        padding-bottom: 0;
     }
 
     img{
-        margin-bottom: 0px;
-        padding-bottom: 0px;
+        margin-bottom: 0;
+        padding-bottom: 0;
     }
 }
