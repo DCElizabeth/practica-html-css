@@ -1,0 +1,235 @@
+.ejer1-container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    gap: 24px;
+    padding: 20px;
+}
+
+.left{      
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 54px;
+    text-align: center;
+    color: #000000;
+    margin-top: auto;
+}
+
+.reference {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: normal;
+    font-weight: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.ejer1-container button {
+    width: 260px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #ffffff;
+    margin: 24px auto 42px auto;
+    padding: 15px 16px;
+    background-color: #fb6a66;
+    border:none;
+}
+
+.ejer1-container button:active {
+    background-color: #fb6faa;
+    cursor: pointer;
+}
+
+.ejer1-container button:hover {
+    cursor: pointer;
+}
+
+.image-container {
+      width: 50%;
+      margin-top: 42px;
+      margin-bottom: 42px;
+      padding-top: 30px;
+      padding-bottom: 20px;
+}
+
+.ejer1-container .image-container img{
+      max-width: 688px;
+      width: 100%;
+      margin-left: 0px;
+      margin-right: auto;
+      margin-top: 42px;
+      margin-bottom: 42px;
+      padding: 20px 0 20px 0;
+}
+
+.container2 {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    gap: 24px;
+    padding: 20px;
+}
+
+.container2-rigth {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container2 {
+    width: 70%;
+}
+
+.container2 .image-container2 img {
+      max-width: 584px;
+      width: 100%;
+}
+
+.h3 {
+    font-family: PlayfairDisplay;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 42px;
+    color: #000000;
+    text-align: center;
+  }
+
+.list h6 {
+    font-family: NunitoSans;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  color: #000000;
+  margin: auto;
+  }
+
+.list p {
+    opacity: 0.6;
+    font-family: NunitoSans;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin: auto;
+}
+
+.list {
+     list-style-type: none;
+}
+
+.list li {
+    display: flex;
+}
+
+.list li img {
+    height: 39px;
+    margin-right: 29px;
+    margin-bottom: 41px;
+    margin-top: 5px;
+}
+
+.container3{
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.description2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.button2 {
+    width: 260px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 24px auto 24px auto;
+    color: #ffffff;
+    padding: 15px 16px;
+    background-color: #fb6a66;
+    border:none;
+    display: block;    
+}
+
+.button2:active {
+    background-color: #fb6faa;
+    cursor: pointer;
+}
+
+.button2:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+    .ejer1-container {
+        flex-direction: column-reverse;
+        margin: auto;
+    }
+    
+    .left{
+        width:unset;
+    }
+    
+    .title{
+        margin-top: 0;
+    }
+
+    .description{
+        display: none;
+    }
+
+    .ejer1-container button{
+        display: none;
+    }
+
+    .image-container {
+        width: unset;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .ejer1-container .image-container img{
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .container2 {
+    flex-direction: column;
+    margin: auto;
+    }
+
+    .image-container2 {
+    width: unset;
+    }
+
+    .container2-rigth {
+    margin: auto;
+    text-align: center;
+    }
+}
