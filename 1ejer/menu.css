@@ -1,59 +1,54 @@
-body {
-    margin: 0;
-}
-
 .menu-container {
     border-bottom: 1px solid gray;
 }
 
 .menu {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
     margin: auto;
-  max-width: 1200px;
-  background-color: #ffffff;
-  display: flex;
-  justify-content: space-between;
+    max-width: 1200px;
 }
 
 .logo {
-  display: flex;
- 
+    display: flex;
 }
 
 .logo img {
-  height: 47px;
-  margin: auto;
-  align-items: center;
+    align-items: center;
+    height: 47px;
+    margin: auto;
 }
 
 .navigation {
+    align-items: center;
     display: flex;
     flex-direction: row;
     list-style-type: none;
     padding-left: 0px;
-    align-items: center;
-
 }
 
-.addons {
-    list-style: none;
-    justify-content: space-between;
-    box-sizing: border-box;
+.addons, .magazine, .tv {
     align-items: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+    list-style: none;
     padding-left: 0;
 }
 
-.addons a {
-    width: 100%;
+.addons a, .magazine a, .tv a {
+    align-items: flex-start;
     color: #222222;
+    display: flex;
     font-family: 'Nunito Sans';
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 0;
     line-height: 18px;
+    margin-right: 36px;
     text-decoration: none;
     text-transform: uppercase;
-    display: flex;
-    align-items: flex-start;
+    width: 100%;
 }
 
 a {
@@ -61,33 +56,33 @@ a {
 }
 
 .live {
+    background-color: #fb6a66;
+    border-radius: 3px;
+    box-shadow: 0 0 0 3px #ffe1e1;
     color: #ffffff;
     font-family: 'Nunito Sans';
     font-size: 9px;
     font-weight: 800;
     letter-spacing: 1.5px;
     line-height: 12px;
-    text-align: center;
-    padding: 3px 6px;
-    border-radius: 3px;
-    background-color: #fb6a66;
-    box-shadow: 0 0 0 3px #ffe1e1;
     margin-left: 9px;
     margin-top: -1px;
-    margin-right: 36px;
+    padding: 3px 6px;
+    text-align: center;
 }
 
-.mybox, .shop, .community {   
-    list-style: none;
-    width: 100%;
-    justify-content: space-between;
-    box-sizing: border-box;
+.navigation>div>li {
     align-items: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+    list-style: none;
     margin-right: 36px;
+    width: 100%;
+    white-space: nowrap;
 }
 
-.mybox, .shop, .community a {
-    width: 100%;
+.navigation>div>li a {
+    align-items: flex-start;
     color: #222222;
     font-family: 'Nunito Sans';
     font-size: 14px;
@@ -96,43 +91,35 @@ a {
     line-height: 18px;
     text-decoration: none;
     text-transform: uppercase;
-    align-items: flex-start;
+    width: 100%;
 }
 
 .navigation i {
-    display: inline-block;
-    font-style: normal;
-    font-feature-settings: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1;
     cursor: pointer;
+    display: inline-block;
 }
-.navigation > div > ul,
-.navigation .submenu {
+
+.navigation>div>ul, .navigation .submenu {
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e8e8e8;
+    box-shadow: 0 2px 10px 0 grey;
+    box-sizing: border-box;
+    cursor: pointer;
     display: none;
-    position: absolute;
-    color: black;
     font-family: 'Nunito Sans';
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 0;
     line-height: 18px;
-    text-decoration: none;
-    align-items: flex-start;
-    padding: 0;
     list-style: none;
-    border-bottom: 1px solid #e8e8e8;
-    box-sizing: border-box;
-    align-items: center;
-    background-color: #ffffff;
     overflow: initial;
-    box-shadow: 0 2px 10px 0 grey;
-    cursor: pointer;
-    width: 250px;
+    padding: 0;
+    position: absolute;
+    text-decoration: none;
     transform: translateX(-90px);
+    width: 250px;
 }
-
 
 .navigation div:hover ul {
     display: block;
@@ -141,62 +128,16 @@ a {
 }
 
 .navegation ul li {
-    width: 250px;
     background-color: #fff;
+    box-sizing: border-box;
     padding: 0;
-    box-sizing: border-box;
     position: absolute;
+    width: 250px;
 }
-
-
-
-.tv {
-    list-style: none;
-    justify-content: space-between;
-    box-sizing: border-box;
-    align-items: center;
-    margin-right: 36px;
-}
-
-.tv a {
-    width: 100%;
-    color: #222222;
-    font-family: 'Nunito Sans';
-    font-size: 14px;
-    font-weight: bold;
-    letter-spacing: 0;
-    line-height: 18px;
-    text-decoration: none;
-    text-transform: uppercase;
-    align-items: flex-start;
-}
-
-.magazine {
-    list-style: none;
-    justify-content: space-between;
-    box-sizing: border-box;
-    align-items: center;
-    margin-right: 36px;
-}
-
-.magazine a {
-    width: 100%;
-    color: #222222;
-    font-family: 'Nunito Sans';
-    font-size: 14px;
-    font-weight: bold;
-    letter-spacing: 0;
-    line-height: 18px;
-    text-decoration: none;
-    text-transform: uppercase;
-    align-items: flex-start;
-}
-
-
 
 .joamin {
-    display: flex;
     align-items: center;
+    display: flex;
     font-family: 'Nunito Sans';
     font-size: 16px;
     font-weight: bold;
@@ -206,6 +147,8 @@ a {
 }
 
 .subscription-stateactive {
+    background-color: #4ebd41;
+    border-radius: 3px;
     color: #ffffff;
     font-family: 'Nunito Sans';
     font-size: 9px;
@@ -213,21 +156,19 @@ a {
     letter-spacing: 1.5px;
     line-height: 12px;
     text-align: center;
-    border-radius: 3px;
-    background-color: #4ebd41;
     margin-left: 9px;
     padding: 3px 6px;
 }
 
 .user-profile__item__detail__subscription {
+    display: flex;
     font-family: 'Nunito Sans';
     font-size: 14px;
+    font-weight: 400;
     letter-spacing: 0;
     line-height: 18px;
-    text-transform: capitalize;
-    font-weight: 400;
     margin: 10px;
-    display: flex;
+    text-transform: capitalize;
 }
 
 .submenu-list {
@@ -235,15 +176,15 @@ a {
 }
 
 .navbutton ul li {
-    list-style: none;
-    width: 100%;
+    align-items: center;
+    background-color: white;
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
-    box-sizing: border-box;
-    align-items: center;
-    color: #222222;
-    background-color: white;
+    list-style: none;
+    width: 100%;
 }
+
 .submenu {
     display: none;
     position: absolute;
@@ -255,40 +196,33 @@ a {
 }
 
 .navbutton {
-    border:none;
     background: none;
+    border: none;
     color: gray;
-    background-color: none;
-    text-decoration: none;
     font-size: 42px;
-    
+    text-decoration: none;
 }
 
 .buttoncart {
     box-sizing: border-box;
     border: none;
-    margin: 0 0 9px 18px;
-    width: 42px;
-    height: 42px;
     border-radius: 23px;
     display: flex;
+    margin: 0 0 9px 18px;
     justify-content: center;
-    box-sizing: border-box;
-}
-
-.navigation a {
-    color: #222222;
+    height: 42px;
+    width: 42px;
 }
 
 .cart {
-    border: 1px solid #d0d0d0;
-    width: 42px;
-    height: 42px;
-    border-radius: 21px;
     align-items: center;
+    border: 1px solid #d0d0d0;
+    border-radius: 21px;
     display: flex;
     justify-content: center;
+    height: 42px;
     margin-top: 4px;
+    width: 42px;
 }
 
 .navigation ul li a {
@@ -309,11 +243,11 @@ a {
     background-color: gainsboro;
 }
 
-.navigation > div > li:hover a {
+.navigation>div>li:hover a {
     color: gainsboro;
 }
 
-.navigation > li a:hover {
+.navigation>li a:hover {
     color: gainsboro;
 }
 
@@ -321,9 +255,11 @@ a {
     .butt, .buttoncart {
         display: none;
     }
+
     .menu {
         flex-direction: column;
     }
+
     .menu-container {
         border-bottom: none;
     }
@@ -332,11 +268,12 @@ a {
         border-bottom: 1px solid #e8e8e8;
         justify-content: space-between;
     }
+
     .navigation {
         flex-direction: column;
     }
-    
-    .navigation > li, .navigation > div {
+
+    .navigation>li, .navigation>div {
         width: 100%;
         min-height: 54px;
         padding: 19px;
@@ -356,8 +293,11 @@ a {
         margin-left: 0;
     }
 
-     .mybox, .shop, .community > li i {
+    .mybox, .shop, .community>li i {
         display: flex;
     }
 
+    .navigation>div>li {
+        display: flex;
+    }
 }
