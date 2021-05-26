@@ -76,9 +76,8 @@
       width: 100%;
       margin-left: 0px;
       margin-right: auto;
-      margin-top: 42px;
       margin-bottom: 42px;
-      padding: 20px 0 20px 0;
+     
 }
 
 .container2 {
@@ -222,5 +221,8 @@
     .container2-rigth {
     margin: auto;
     text-align: center;
+    }
+    .button2{
+        width: 100%;
     }
 }
