@@ -29,12 +29,11 @@
     cursor: pointer;
 }
 
-h3 {
+.footer h3 {
   font-family: 'Nunito Sans';
   font-size: 16px;
   font-weight: bold;
   line-height: 24px;
-  color: #000000;
   padding-bottom: 13px;
 }
 
@@ -43,8 +42,8 @@ h3 {
   font-family: 'Nunito Sans';
   font-size: 14px;
   line-height: 24px;
-  color: #000000;
   list-style-type: none;
+  text-decoration: none;
 }
 
 .footer ul{
@@ -72,22 +71,24 @@ h3 {
   font-size: 23px;
 }
 
+.footer i:hover {
+  cursor: pointer;
+}
+
 .footer .title-icons {
   text-align: center;
   margin-right: 28px;
 }
 
-
 .copy-footer {
     background-color: #e8e8e8;
     border-bottom: 1px solid #d0d0d0;
-    height: 48px;
     padding: 17px 0 16px 0;
     box-sizing: border-box;
 }
 
 .copy {
-     display: flex;
+    display: flex;
     flex-direction: row;
     list-style-type: none;
     margin: 0;
